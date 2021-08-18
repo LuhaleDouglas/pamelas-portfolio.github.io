@@ -521,6 +521,7 @@ input, textarea, select{
     text-align: center;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    width: 100%;
 }
 .service .service-item .service-item-inner:hover{
     -webkit-box-shadow: 0 0 20px rgba(48,46,77,0.15);
@@ -825,11 +826,14 @@ input, textarea, select{
     flex: 0 0 33.33%;
     max-width: 33.33%;
     margin-bottom: 30px;
+    dispalay: flex;
 }
 .blog .blog-item-inner{
     border-radius: 10px;
     overflow: hidden;
     border: 1px solid #d4d4e3;
+    width: 100%;
+    background-color: #fdf9fd;
     
 }
 .blog .blog-item-inner .blog-img{
@@ -860,7 +864,6 @@ input, textarea, select{
 }
 .blog .blog-item-inner .blog-info{
     padding: 30px 15px;
-    background-color: #fdf9fd;
 }
 .blog .blog-item-inner .blog-info .blog-tittle{
     font-size: 18px;
@@ -1019,7 +1022,7 @@ body.dark .aside .nav li a{
         left: 30px;
     }
     .aside .nav-toggler.open{
-        left: 300px;
+        left: 220px;
     }
     .aside{
         left: -270px;
